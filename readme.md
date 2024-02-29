@@ -35,7 +35,5 @@ The project will open at http://localhost:5173
 - React Query
 - ESLint
 - Prettier
-- ESLint
-- Prettier
 - Jest
 - React Testing Library
