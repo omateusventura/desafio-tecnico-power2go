@@ -7,7 +7,7 @@ Complete setup for developing applications with React.js and Typescript using Vi
 To start the setup, execute the commands in the sequence below
 
 ```
-git clone https://github.com/omateusventura/setup-node.git
+git clone https://github.com/omateusventura/setup-react.git
 ```
 
 ```
