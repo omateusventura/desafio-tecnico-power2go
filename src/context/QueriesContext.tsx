@@ -22,7 +22,10 @@ export function QueriesProvider({ children }: { children: React.ReactNode }) {
 
     if (latestSearches) {
       const data = JSON.parse(latestSearches);
+      const lastQuery = data[0] as ICountry;
+      
       setLastQueries(data);
+      setCurrentQuery(lastQuery);
     }
   }, []);
 
