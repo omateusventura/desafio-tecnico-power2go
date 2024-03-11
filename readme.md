@@ -1,10 +1,10 @@
-## About
+## Sobre
 
-Front-end technical challenge proposed by the company Power2Go
+Desafio técnico de front-end utilizando React.js proposto pela empresa Power2Go
 
-## Starting the project
+## Iniciando o projeto
 
-To start the setup, execute the commands in the sequence below
+Para iniciar a projeto, execute os comandos na sequência abaixo
 
 ```
 git clone https://github.com/omateusventura/desafio-tecnico-power2go.git
@@ -19,11 +19,12 @@ npm run dev
 ```
 
 ```
-The project will open at http://localhost:5173
+O projeto irá abrir no link http://localhost:5173
 ```
 
-## Currently, the setup has these packages
+## Setup do projeto
 
+- React
 - Typescript
 - Tailwind
 - React Icons
