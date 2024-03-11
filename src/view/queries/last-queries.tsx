@@ -1,5 +1,5 @@
 import { QueriesContext } from "@/context/QueriesContext"
-import { ICountry } from "@/utils/schemas/queries";
+import { ICountry } from "@/utils/interfaces/country";
 import { useContext } from "react";
 
 export function Queries() {

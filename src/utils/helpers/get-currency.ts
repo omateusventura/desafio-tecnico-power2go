@@ -1,4 +1,4 @@
-import { ICountry } from "../schemas/queries";
+import { ICountry } from "../interfaces/country";
 
 export function getCurrency({ country }: {country: ICountry}) {
   const keys = Object.keys(country?.currencies)[0];

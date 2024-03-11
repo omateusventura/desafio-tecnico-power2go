@@ -1,7 +1,7 @@
 import { QueriesContext } from "@/context/QueriesContext"
-import { ICountry } from "@/utils/schemas/queries";
 import { useContext } from "react";
 import { ExcelButton } from "./export-excel-button";
+import { ICountry } from "@/utils/interfaces/country";
 
 export function LastQueries() {
   const { lastQueries, setCurrentQuery } = useContext(QueriesContext);
@@ -43,7 +43,6 @@ export function LastQueries() {
             <tr>
               <td className="w-[800px] text-sm text-center py-2.5" colSpan={5}>Nenhuma consulta efetuada</td>
             </tr>
-
           : 
           lastQueries.map((country: ICountry, index: number) => {
             return (
@@ -58,7 +57,7 @@ export function LastQueries() {
                   <button 
                     type="button"
                     className="bg-slate-900 text-white text-xs rounded-md px-4 py-2 ml-2 
-                    shadow-lg shadow-slate-300" 
+                    shadow-lg shadow-slate-300 hover:bg-slate-800 duration-300 ease-in-out" 
                     onClick={() => setCurrentQuery(country)}
                     aria-label="Buscar novamente esta consulta"
                   >

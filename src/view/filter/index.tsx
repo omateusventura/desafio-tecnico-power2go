@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { QueriesContext } from "@/context/QueriesContext";
 import { useContext, useEffect } from "react";
-import { CountrySchema, ICountry, countrySchema } from "@/utils/schemas/queries";
+import { CountrySchema, countrySchema } from "@/utils/schemas/queries";
 import { zodResolver } from '@hookform/resolvers/zod';
 import { GrFormSearch } from "react-icons/gr";
 import { Spinner } from "@/components/spinner";
@@ -9,6 +9,7 @@ import { Combobox } from "@/components/combobox";
 import { getCountries } from "@/services/get-countries";
 
 import toast from "react-hot-toast";
+import { ICountry } from "@/utils/interfaces/country";
 
 export function Filter() {
   const { setLastQueries, setCurrentQuery } = useContext(QueriesContext);

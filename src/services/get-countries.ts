@@ -1,7 +1,7 @@
 import { instance } from "@/lib/axios";
 import { getCurrency } from "@/utils/helpers/get-currency";
 import { getLanguage } from "@/utils/helpers/get-language";
-import { ICountry } from "@/utils/schemas/queries";
+import { ICountry } from "@/utils/interfaces/country";
 import axios from "axios";
 import moment from "moment";
 

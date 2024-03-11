@@ -1,5 +1,5 @@
 import { ViewingModeEnum } from "@/utils/enums/viewing-mode";
-import { ICountry } from "@/utils/schemas/queries";
+import { ICountry } from "@/utils/interfaces/country";
 import { createContext, useEffect, useMemo, useState } from "react";
 
 type QueriesContextProps = {
