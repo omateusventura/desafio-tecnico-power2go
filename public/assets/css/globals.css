@@ -45,3 +45,12 @@ body {
 .input[data-invalid="true"] {
   @apply border-red-200 text-red-200;
 }
+
+.main-area {
+  @apply w-10/12 h-[calc(100%_-_80px)] overflow-y-scroll bg-white shadow-lg;
+  @apply border border-slate-200 rounded-lg px-5 py-5 relative -top-3;
+}
+
+.information-area {
+  @apply w-full h-fit max-w-full flex flex-col lg:flex-row justify-between gap-4 mt-6;
+}

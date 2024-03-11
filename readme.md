@@ -1,6 +1,6 @@
 ## About
 
-Complete setup for developing applications with React.js and Typescript using Vite.
+Technical challenge proposed by the company Power2Go
 
 ## Starting the project
 
