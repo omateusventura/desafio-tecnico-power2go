@@ -26,33 +26,39 @@ export function QueryDetail() {
           </tr>
           : 
           <>
-            <tr>
-              <td className="text-start text-sm px-2 py-2">Country</td>
-              <td className="text-start text-sm px-2 py-2">{ currentQuery?.name.common }</td>
+            <tr className="bg-slate-50 border-b border-b-slate-100">
+              <td className="w-48 text-start text-sm text-slate-900 px-2 py-2 font-bold">Country</td>
+              <td className="text-start text-sm px-2 py-2.5">{ currentQuery?.name.common }</td>
             </tr>
-            <tr>
-              <td className="text-start text-sm px-2 py-2">Official Name</td>
-              <td className="text-start text-sm px-2 py-2">{ currentQuery?.name.official }</td>
+
+            <tr className="border-b border-b-slate-100">
+              <td className="w-48 text-start text-sm text-slate-900 px-2 py-2 font-bold">Official Name</td>
+              <td className="text-start text-sm px-2 py-2.5">{ currentQuery?.name.official }</td>
             </tr>
-            <tr>
-              <td className="text-start text-sm px-2 py-2">Continent</td>
-              <td className="text-start text-sm px-2 py-2">{ currentQuery?.continents }</td>
+
+            <tr className="bg-slate-50 border-b border-b-slate-100">
+              <td className="w-48 text-start text-sm text-slate-900 px-2 py-2 font-bold">Continent</td>
+              <td className="text-start text-sm px-2 py-2.5">{ currentQuery?.continents }</td>
             </tr>
-            <tr>
-              <td className="text-start text-sm px-2 py-2">Capital</td>
-              <td className="text-start text-sm px-2 py-2">{ currentQuery?.capital }</td>
+
+            <tr className="border-b border-b-slate-100">
+              <td className="w-48 text-start text-sm text-slate-900 px-2 py-2 font-bold">Capital</td>
+              <td className="text-start text-sm px-2 py-2.5">{ currentQuery?.capital }</td>
             </tr>
-            <tr>
-              <td className="text-start text-sm px-2 py-2">Population</td>
-              <td className="text-start text-sm px-2 py-2">{ currentQuery?.population }</td>
+
+            <tr className="bg-slate-50 border-b border-b-slate-100">
+              <td className="w-48 text-start text-sm text-slate-900 px-2 py-2 font-bold">Population</td>
+              <td className="text-start text-sm px-2 py-2.5">{ currentQuery?.population }</td>
             </tr>
-            <tr>
-              <td className="text-start text-sm px-2 py-2">Currency</td>
-              <td className="text-start text-sm px-2 py-2">{ currentQuery?.currencies.value }</td>
+
+            <tr className="border-b border-b-slate-100">
+              <td className="w-48 text-start text-sm text-slate-900 px-2 py-2 font-bold">Currency</td>
+              <td className="text-start text-sm px-2 py-2.5">{ currentQuery?.currencies.value }</td>
             </tr>
-            <tr>
-              <td className="text-start text-sm px-2 py-2">Language</td>
-              <td className="text-start text-sm px-2 py-2">{ currentQuery?.languages.value }</td>
+
+            <tr className="bg-slate-50 border-b border-b-slate-100">
+              <td className="w-48 text-start text-sm text-slate-900 px-2 py-2 font-bold">Language</td>
+              <td className="text-start text-sm px-2 py-2.5">{ currentQuery?.languages.value }</td>
             </tr>
           </>
         }

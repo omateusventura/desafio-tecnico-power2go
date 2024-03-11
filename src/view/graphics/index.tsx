@@ -44,7 +44,7 @@ export function Graphics() {
 
         <GraphicCard 
           className="from-indigo-400 to-indigo-500 shadow-indigo-200"
-          title="Language"
+          title="Currency"
           information={currentQuery?.currencies.value}    
         />
       </div>
