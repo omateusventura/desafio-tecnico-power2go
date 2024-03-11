@@ -4,7 +4,7 @@
 
 html,
 body {
-  overflow: hidden;
+  @apply overflow-hidden;
 }
 
 ::-webkit-scrollbar {
@@ -24,26 +24,9 @@ body {
   background: #555;
 }
 
-.label {
-  @apply absolute text-sm text-gray-500;
-  @apply duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5;
-  @apply peer-focus:text-blue-600 peer-placeholder-shown:scale-100;
-  @apply peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4; 
-  @apply rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto;
-}
 
-.input {
-  @apply w-full block rounded-md px-2.5 pb-2.5 pt-5;
-  @apply text-sm text-gray-900 border border-gray-200 appearance-none focus:outline-none; 
-  @apply focus:ring-0 focus:border-blue-600;
-}
-
-.label[data-invalid="true"] {
-  @apply text-red-200 peer-focus:text-red-200 ;
-}
-
-.input[data-invalid="true"] {
-  @apply border-red-200 text-red-200;
+.area {
+  @apply w-screen h-screen bg-slate-50 flex items-center justify-center flex-wrap;;
 }
 
 .main-area {

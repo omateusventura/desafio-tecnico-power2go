@@ -10,7 +10,7 @@ export function App() {
   const { viewingMode } = useContext(QueriesContext);
   
   return (
-    <main className="w-screen h-screen bg-slate-50 flex items-center justify-center flex-wrap">
+    <main className="area">
       <ViewingMode />
 
       <div className="main-area">

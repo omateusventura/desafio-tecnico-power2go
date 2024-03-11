@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { IoEyeSharp } from "react-icons/io5";
 
 export function ViewingMode() {
-  const { setViewingMode } = useContext(QueriesContext);
+  const { viewingMode, setViewingMode } = useContext(QueriesContext);
 
   function handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
     const mode = event.currentTarget.value as ViewingModeEnum;
@@ -22,7 +22,9 @@ export function ViewingMode() {
       </div>
       <select 
         className="w-36 bg-transparent border-b px-2 py-1 text-sm focus:outline-none" 
-        onChange={(event) => handleChange(event)}>
+        onChange={(event) => handleChange(event)}
+        defaultValue={viewingMode}
+      >
         <option value="graphic">Gráfico</option>
         <option value="table">Tabela</option>
       </select>
