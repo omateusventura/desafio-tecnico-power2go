@@ -11,7 +11,7 @@ export function GraphicCard({ title, information, className, ...props }: Graphic
   return (
     <div 
       {...props} 
-      className={cn(className, 'grow w-full lg:w-5/12 rounded-md px-2 py-3  bg-gradient-to-r shadow-md')}
+      className={cn(className, 'grow w-full lg:w-5/12 rounded-md px-2 py-5 bg-gradient-to-r shadow-md')}
     >
       <span className="text-lg text-white font-medium">{title}</span>
       <h4 className="text-3xl text-white font-bold">{information || 'N/A'}</h4>

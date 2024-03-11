@@ -7,7 +7,7 @@ export function Graphics() {
   const { currentQuery } = useContext(QueriesContext);
 
   return (
-    <div className="w-6/12 h-fit pr-4">
+    <div className="w-full lg:w-6/12 h-fit pr-4">
       {
         currentQuery &&
         <div className="mb-5">

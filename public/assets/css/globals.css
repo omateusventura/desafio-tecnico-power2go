@@ -30,7 +30,7 @@ body {
 }
 
 .main-area {
-  @apply w-10/12 h-[calc(100%_-_80px)] overflow-y-scroll bg-white shadow-lg;
+  @apply w-11/12 h-[calc(100%_-_80px)] overflow-auto bg-white shadow-lg;
   @apply border border-slate-200 rounded-lg px-5 py-5 relative -top-3;
 }
 
