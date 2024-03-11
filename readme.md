@@ -1,6 +1,6 @@
 ## About
 
-Technical challenge proposed by the company Power2Go
+Front-end technical challenge proposed by the company Power2Go
 
 ## Starting the project
 
