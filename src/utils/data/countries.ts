@@ -97,13 +97,6 @@ export const countries = [
   },
   {
     name: {
-      common: "Antarctica",
-      official: "Antarctica",
-      nativeName: {},
-    },
-  },
-  {
-    name: {
       common: "Antigua and Barbuda",
       official: "Antigua and Barbuda",
       nativeName: {
