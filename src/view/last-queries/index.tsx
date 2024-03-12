@@ -27,10 +27,10 @@ export function LastQueries() {
           </th>
         </tr>
         <tr className="bg-white border-b border-b-slate-100">
-          <th className="w-[12vw] text-start text-sm text-slate-900 font-bold px-2 py-2.5">
+          <th className="min-w-[13.3vw] text-start text-sm text-slate-900 font-bold px-2 py-2.5">
             Data de consulta
           </th>
-          <th className="text-start text-sm text-slate-900 font-bold py-2.5">
+          <th className="w-[40vw] text-start text-sm text-slate-900 font-bold py-2.5">
             Consulta
           </th>
           <th></th>
@@ -47,7 +47,7 @@ export function LastQueries() {
           lastQueries.map((country: ICountry, index: number) => {
             return (
               <tr className="odd:bg-slate-50 border-b border-slate-100" key={index}>
-                <td className="w-[19vw] text-start text-sm px-2 py-2">
+                <td className="min-w-[13.3vw] text-start text-sm px-2 py-2">
                   {country?.datetime}
                 </td>
                 <td className="w-[40vw] text-start text-sm py-2">
